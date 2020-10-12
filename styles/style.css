@@ -1,0 +1,104 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+.gridContainer
+{
+	display: grid;
+	grid-template-columns: 23% 22% 25% 30%;
+	grid-template-rows: 120px 160px 360px 200px 160px;
+	
+}
+
+body
+{
+	width: 60%;
+	margin: 0 auto;
+}
+
+img	
+{
+	width: 100%;
+	height: 100%;
+}
+
+.menu
+{
+	grid-column-start: 1;
+	grid-column-end: 5;
+}
+
+.banner
+{
+	grid-column-start: 1;
+	grid-column-end: 5;
+	padding-bottom: 5px;
+}
+
+.commando
+{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.verstappen
+{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	padding: 5px;
+}
+
+.netBinnen
+{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 3;
+	grid-row-end: 5;
+	padding: 5px;
+}
+
+.griepVaccin
+{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 4;
+	grid-row-end: 6;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.zonovergoten
+{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 4;
+	grid-row-end: 6;
+	padding: 5px;
+}
+
+.schandaal
+{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 4;
+	grid-row-end: 6;
+	padding: 5px;
+}
+
+.ad
+{
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 5;
+	grid-row-end: 6;
+	padding: 5px;
+	margin: auto;
+}
